@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif; 
+    
+}
+    
+    
+    header{
+        background-color: black;
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+                
+    }
+
+    .menu-sup a{
+        color: white;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .menu-sup ul{
+        display: flex;
+        list-style: none;
+        color: white;
+        font-size: 20px;
+        gap: 25px;
+    }
+
+    h2{
+        position: absolute;
+        width: 485px;
+        height: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    h2, h3{
+        color: #FC200C;
+        font-size: 20px;
+
+    }
+
+    h3{
+        padding-left: 150px;
+    }
+
+    .highlight{
+        color: white;
+    }
+
+
+    main{
+        display: flex;
+        background-color: #E5E5E5;
+        padding: 20px;
+        justify-content: center;
+        }
+
+    .container-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+    
+    }
+
+   
+    .card2{
+        background-color: #FFFFFF;
+        width: 491px;
+        height: 350px;
+        border-radius: 5px;
+        display: flex;
+        
+    }
+
+    .card2 div{
+        margin-top: 80px;
+    }
+
+    .card2 img{
+        position: absolute;
+        width: 92px;
+        height: 129px;
+        left: 1100px;
+        top: 267px;
+    }
+
+    .card2 ol{
+        position: absolute;
+        width: 92px;
+        height: 129px;
+        left: 839px;
+        top: 267px;
+        gap: 5px;
+        font-style: bold;
+    }
+
+
+    footer{
+        background: black;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    .menu-footer ul a{
+        list-style: none;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+                
+    }
+
+    .menu-footer ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5%;
+
+    }
